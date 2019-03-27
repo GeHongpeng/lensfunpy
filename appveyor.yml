@@ -12,12 +12,12 @@ environment:
   matrix:
     # Note: numpy binary wheels for Windows are only available from 1.10.4 onwards.
     # That is why this script uses Conda instead.
-    - PYTHON: C:\Miniconda27
+    - PYTHON: C:\Miniconda
       PYTHON_VERSION: "2.7"
       PYTHON_ARCH: "32"
       NUMPY_VERSION: "1.7"
 
-    - PYTHON: C:\Miniconda27-x64
+    - PYTHON: C:\Miniconda-x64
       PYTHON_VERSION: "2.7"
       PYTHON_ARCH: "64"
       NUMPY_VERSION: "1.7"
